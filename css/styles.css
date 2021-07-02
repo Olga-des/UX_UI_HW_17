@@ -4,8 +4,8 @@ body {
     font-family: 'Open Sans', sans-serif;
     color: #69686D;
 
-    border: 1px dashed #48C0AA;
-    border-radius: 15px;
+    /* border: 1px dashed #48C0AA;
+    border-radius: 15px; */
 }
 
 h3{
@@ -23,26 +23,27 @@ p {
     font-size: 14px;
     line-height: 182.69%;
 
-    border: 1px dashed #48C0AA;
-    border-radius: 15px;
+    /* border: 1px dashed #48C0AA;
+    border-radius: 15px; */
 }
 
 section{
-    border: 1px dashed #48C0AA;
-    border-radius: 15px;
+    /* border: 1px dashed #48C0AA;
+    border-radius: 15px; */
     margin: 1em;
 }
 
 button {
     border: none;
     color: #FD636B;
+    margin-top: 20px;
     padding: 15px 32px;
     text-align: center;
     display: inline-block;
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 0.02em;
-    border: 1px solid #FD636B;
+    border: 2px solid #FD636B;
     box-sizing: border-box;
     border-radius: 10px;
 
@@ -57,8 +58,8 @@ nav{
     text-transform: uppercase;
     letter-spacing: 0.195em;
 
-    border: 1px dashed #48C0AA;
-    border-radius: 15px;
+    /* border: 1px dashed #48C0AA;
+    border-radius: 15px; */
 }
 
 ul{
@@ -68,44 +69,47 @@ ul{
     padding: 0 auto;
     vertical-align:middle;
 
-    border: 1px dashed #48C0AA;
-    border-radius: 15px;
+    /* border: 1px dashed #48C0AA;
+    border-radius: 15px; */
 }
 
 li{
     padding: 0px 10px 0px 10px;
     float:right;
 
-    border: 1px dashed #48C0AA;
-    border-radius: 15px;
+    /* border: 1px dashed #48C0AA;
+    border-radius: 15px; */
 }
 
 footer{
-    border: 1px dashed #48C0AA;
-    border-radius: 15px;
+    /* border: 1px dashed #48C0AA;
+    border-radius: 15px; */
 }
 
 .about {
-    width: 50%;
+    width: 80%;
     position: relative;
 }
 
 #about{
-    display: inline-block;
     width: 100%;
+    display: flex;
 }
 
 .heroImg{
     width: 316px;
-    padding: 25px;
+    padding: 0px 50px;
     margin-left: 5em;
     float: right;
+
+    /* border: 1px dashed #48C0AA;
+    border-radius: 15px; */
 }
 
-.content{
-    width: 500px;
+/* .content{
+    width: 30%;
     margin: 0 auto;
-}
+} */
 
 .inline-block{
     display: inline-block;
