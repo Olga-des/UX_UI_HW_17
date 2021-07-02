@@ -1,0 +1,17 @@
+
+body {
+    background-color:#F3F2F2;
+}
+p {
+    color: black;
+}
+.about {
+    width: 70%;
+    position: relative;
+}
+
+.profileImg{
+    width: 200px;
+    position:relative;
+margin-left: auto;
+}
