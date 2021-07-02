@@ -1,14 +1,26 @@
 
 body {
     background-color:#F3F2F2;
+    font-family: 'Open Sans', sans-serif;
+    color: #69686D;
 }
 p {
-    color: black;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 182.69%;
+
+    border: 1px dashed #48C0AA;
+    border-radius: 15px;
 }
 
 nav{ 
     width: 73%;
     padding: 1%;
+
+    border: 1px dashed #48C0AA;
+    border-radius: 15px;
 }
 
 ul{
@@ -24,7 +36,8 @@ li{
 }
 
 footer{
-    background-color: #373738;
+    border: 1px dashed #48C0AA;
+    border-radius: 15px;
 }
 
 .about {
@@ -32,8 +45,8 @@ footer{
     position: relative;
 }
 
-heroImg{
-    width: 600px;
+.heroImg{
+    width: 316px;
     position:relative;
     padding: 25px;
     margin-left: auto;
@@ -56,6 +69,6 @@ heroImg{
 }
 
 #logo{
-    width: 300px;
+    width: 278px;
 }
 
